@@ -1,0 +1,2 @@
+What if you had to invent a dynamic array?: https://www.youtube.com/watch?v=5AllG-i_yto
+The Simple and Elegant Idea behind Efficient Dynamic Arrays: https://youtu.be/Ij7NQ-0mIVA
