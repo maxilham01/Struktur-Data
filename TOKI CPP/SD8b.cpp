@@ -1,8 +1,6 @@
 #include <iostream>
 #include <deque>
 
-
-
 int main (){
     int loop;
     std:: cin >> loop;
@@ -28,12 +26,35 @@ int main (){
                 {
                     testdeque.push_front(x);
                 }
-                
             }
-            
+            std:: cout<< testdeque.size()<< "\n";
         }
+        else if (command == "del")
+        {
+            std:: cin>> x;
+            if (asscending)
+            {
+                std::cout << testdeque.front() << "\n";
+                for(int i = 0;i<x;i++){
+                    testdeque.pop_front();
+                }
+            }
+            else
+            {
+                std::cout << testdeque.back() << "\n";
+
+                for(int i = 0;i<x;i++){
+                    testdeque.pop_back();
+                }
+            
+            }
         
-    }
+        
+        }
+        else if (command =="rev")
+        {
+            asscending = !asscending;
+        }   
     
-    
+    }  
 }
